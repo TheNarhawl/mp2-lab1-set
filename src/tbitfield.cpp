@@ -45,7 +45,7 @@ TBitField::TBitField(const TBitField& buffer) // конструктор копи
     }
 }
 
-TBitField::~TBitField() // деконструктор
+TBitField::~TBitField() // деструктор
 {
     BitLen = 0;
     MemLen = 0;
